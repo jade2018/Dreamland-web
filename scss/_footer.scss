@@ -1,0 +1,96 @@
+.footer {
+    background-color: $gray;
+}
+
+.footer-wrap {
+    text-align: center;
+    padding: 30px;
+}
+
+.footertext-style {
+    color: #fff;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.text-border {
+    display: block;
+    position: relative;
+}
+
+.text-border:before,
+.text-border:after {
+    content: '';
+    /*CSS伪类用法*/
+    position: absolute;
+    /*定位背景横线的位置*/
+    top: 52%;
+    background: #fff;
+    /*宽和高做出来的背景横线*/
+    width: 2%;
+    height: 1px;
+}
+
+.text-border:before {
+    left: 43%;
+}
+
+.text-border:after {
+    right: 43%;
+}
+
+@media (max-width:1024px) {
+    .text-border:before,
+    .text-border:after {
+        display: none;
+    }
+}
+
+@media (max-width:668px) {
+    .text-border:before,
+    .text-border:after {
+        display: none;
+    }
+}
+
+.icon a,
+.footertext-style a,
+.block a {
+    color: $white;
+    text-decoration: none;
+}
+
+.icon {
+    width: 100%;
+}
+
+.icon-item {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 99em;
+    border: 1px solid $white;
+    cursor: pointer;
+    transition: 0.9s;
+    margin: 10px 0 0 5px;
+    &:hover {
+        border: 1px solid $darkgoldenrod;
+    }
+}
+
+@media (max-width:1024px) {
+    .icon-item {
+        width: 44px;
+        height: 44px;
+        margin: 0;
+    }
+    .icon-item a {
+        font-size: 20px;
+    }
+    .fa-envelope,
+    .fa-facebook-f {
+        height: 44px;
+    }
+}
+
+

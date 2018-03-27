@@ -1,0 +1,83 @@
+@import url(//fonts.googleapis.com/earlyaccess/notoserifgeorgian.css);
+@import "_base.scss";
+@import "_nav.scss";
+@import"_footer.scss";
+@import"_backtop.scss";
+@mixin text-decoration {
+    font-size: 14px;
+    line-height: 2.5;
+    color: $darkgoldenrod;
+}
+
+body {
+    font-family: 'Noto Serif Georgian', 'serif';
+    letter-spacing: 2px;
+    background-color: $bown;
+}
+
+.nav {
+    background: $bown;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.img-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.author {
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+@media (max-width:768px) {
+    .author {
+        width: 100%;
+        overflow: inherit;
+        margin: 0 auto;
+    }
+}
+
+.author-img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition: all 8s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.down-icon {
+    color: #fff;
+}
+
+@media (max-width:668px) {
+    .down-icon {
+        display: none;
+    }
+}
+
+.about-content {
+    @include text-decoration();
+    text-align: justify;
+    margin: 100px auto 150px;
+}
+
+.divider img {
+    margin: 100px auto;
+    display: block;
+}
+
+@media (max-width:668px) {
+    .divider img {
+        display: none;
+    }
+}

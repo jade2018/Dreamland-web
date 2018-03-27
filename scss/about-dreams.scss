@@ -1,0 +1,103 @@
+@import url(//fonts.googleapis.com/earlyaccess/notoserifgeorgian.css);
+@import "_base.scss";
+@import "_nav.scss";
+@import"_footer.scss";
+@import"_backtop.scss";
+@mixin text-decoration {
+    font-size: 14px;
+    line-height: 2.5;
+    color: $darkgoldenrod;
+}
+
+body {
+    font-family: 'Noto Serif Georgian', 'serif';
+    letter-spacing: 2px;
+    background-color: $block;
+    background: url(/img/D-T-bg.jpg) repeat-y;
+    background-size: contain;
+}
+
+@media(max-width:1024px) {
+    body {
+        background-image: none;
+        background-color: $block;
+    }
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.news-base,
+.news-even {
+    display: flex;
+    margin: 150px 0 150px 0;
+}
+
+.news-even {
+    flex-direction: row-reverse;
+}
+
+@media (max-width:768px) {
+    .news-base,
+    .news-even {
+        flex-direction: column;
+        margin-top: 0;
+    }
+}
+
+.img-wrap {
+    width: 45%;
+    border-radius: 5px;
+    overflow: hidden; //超出範圍隱藏
+}
+
+@media (max-width:768px) {
+    .img-wrap {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+
+
+.news-img {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    transition: all 10s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.text-wrap-base {
+    width: 55%;
+    padding-left: 50px;
+}
+
+.text-wrap-even {
+    width: 55%;
+    padding-right: 50px;
+}
+
+@media (max-width:768px) {
+    .text-wrap-base,
+    .text-wrap-even {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+       
+    }
+}
+
+.news-content {
+    @include text-decoration();
+    text-align: justify;
+}
+
+.blockquote-footer {
+    display: inline;
+}

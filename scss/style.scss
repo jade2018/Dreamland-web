@@ -1,0 +1,80 @@
+@import url(//fonts.googleapis.com/earlyaccess/notoserifgeorgian.css);
+@import "_base.scss";
+@import "_nav.scss";
+@import"_footer.scss";
+@import"_backtop.scss";
+body {
+    font-family: 'Noto Serif Georgian', 'serif';
+    letter-spacing: 2px;
+    background-color: $block;
+}
+
+
+
+.header {
+    background: url(/img/D-start-bg.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    @media (max-width: 768px) {
+        .header {
+            background: url(/img/T-start-bg.svg);
+        }
+    }
+    @media (max-width:668px) {
+        .header {
+            background: url(/img/M-start-bg.svg);
+        }
+    }
+}
+
+.header-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mark {
+    margin-bottom: 200px;
+    width: 130px;
+    height: 104px;
+    animation: myfirst 2s infinite;
+    background: url(/img/D-T-M-start-alice.svg) no-repeat;
+    @keyframes myfirst {
+        0% {
+            transform: translate(0px, 0px);
+        }
+        50% {
+            transform: translate(0px, -10px);
+        }
+        100% {
+            transform: translate(0px, 0px);
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .mark {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width:668px) {
+    .mark {
+        width: 100px;
+        margin-top: 60px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .start-btn {
+        display: none;
+    }
+}
+
+
+
+

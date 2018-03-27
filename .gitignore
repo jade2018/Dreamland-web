@@ -1,0 +1,13 @@
+/css/debug/
+/css/about-dreams.css
+/css/about-me.css
+/css/home.css
+/css/lightbox.css
+/csss/tyle.css
+/js/all.js
+/js/lightbox-plus-jquery.min.js
+/node_modules/ 
+Thumbs.db
+gulpfile.js
+package-lock.json
+package.json
