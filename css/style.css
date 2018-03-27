@@ -18,7 +18,7 @@
   width: 185px;
   height: 100px;
   text-indent: -999999px;
-  background: url(/img/D-logo.svg) no-repeat;
+  background: url(../../img/D-logo.svg) no-repeat;
   margin: 0 auto; }
 
 @media (max-width: 768px) {
@@ -209,16 +209,16 @@ body {
   background-color: #000; }
 
 .header {
-  background: url(/img/D-start-bg.svg) no-repeat;
+  background: url(../../img/D-start-bg.svg) no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 100%; }
   @media (max-width: 768px) {
     .header .header {
-      background: url(/img/T-start-bg.svg); } }
+      background: url(../../img/T-start-bg.svg); } }
   @media (max-width: 668px) {
     .header .header {
-      background: url(/img/M-start-bg.svg); } }
+      background: url(../../img/M-start-bg.svg); } }
 
 .header-wrap {
   display: -webkit-box;
@@ -242,7 +242,7 @@ body {
   height: 104px;
   -webkit-animation: myfirst 2s infinite;
           animation: myfirst 2s infinite;
-  background: url(/img/D-T-M-start-alice.svg) no-repeat; }
+  background: url(../../img/D-T-M-start-alice.svg) no-repeat; }
 
 @-webkit-keyframes myfirst {
   0% {

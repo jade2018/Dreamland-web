@@ -13,7 +13,7 @@ body {
     font-family: 'Noto Serif Georgian', 'serif';
     letter-spacing: 2px;
     background-color: $block;
-    background: url(/img/D-T-bg.jpg) repeat-y;
+    background: url(../../img/D-T-bg.jpg) repeat-y;
     background-size: contain;
 }
 
@@ -33,7 +33,7 @@ body {
 .header {
     height: 800px;
     max-width: 100%;
-    background: url(/img/D-home-image1.svg) no-repeat;
+    background: url(../../img/D-home-image1.svg) no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -43,7 +43,7 @@ body {
 @media (max-width:768px) {
     .header {
         height: 370px;
-        background: url(/img/T-home-image1.svg) no-repeat;
+        background: url(../../img/T-home-image1.svg) no-repeat;
         background-size: cover;
         background-attachment: scroll;
     }
@@ -52,7 +52,7 @@ body {
 @media(max-width:668px) {
     .header {
         height: 500px;
-        background: url(/img/M-home-image1.svg) no-repeat;
+        background: url(../../img/M-home-image1.svg) no-repeat;
         background-size: cover;
     }
 }
@@ -126,7 +126,7 @@ body {
     overflow: hidden;
     height: 1000px;
     max-width: 100%;
-    background: url(/img/D-home-image2.svg) no-repeat;
+    background: url(../../img/D-home-image2.svg) no-repeat;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -136,7 +136,7 @@ body {
 @media (max-width:768px) {
     .column {
         height: 480px;
-        background: url(/img/T-home-image2.svg) no-repeat;
+        background: url(../../img/T-home-image2.svg) no-repeat;
         background-size: cover;
         background-attachment: scroll;
         margin-top: 200px;

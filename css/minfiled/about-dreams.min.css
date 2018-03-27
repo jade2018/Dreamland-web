@@ -7,7 +7,7 @@
 @media (max-width:768px){.nav{height:150px}
 }
 .nav-wrap{width:100%}
-.logo a{display:block;width:185px;height:100px;text-indent:-999999px;background:url(/img/D-logo.svg) no-repeat}
+.logo a{display:block;width:185px;height:100px;text-indent:-999999px;background:url(../../img/D-logo.svg) no-repeat}
 @media (max-width:768px){.logo a{float:left;width:250px;height:150px;margin-left:78px}
 }
 @media (max-width:668px){.logo a{width:160px;margin-left:36px}
@@ -50,7 +50,7 @@
 .icon-item{display:inline-block;width:30px;height:30px;border-radius:99em;border:1px solid #fff;-webkit-transition:.9s;-o-transition:.9s;transition:.9s;margin:10px 0 0 5px}
 .icon-item:hover{border:1px solid #BAA973}
 .backtop{position:fixed;bottom:0;right:0}
-body{font-family:'Noto Serif Georgian',serif;letter-spacing:2px;background:url(/img/D-T-bg.jpg) repeat-y;background-size:contain}
+body{font-family:'Noto Serif Georgian',serif;letter-spacing:2px;background:url(../../img/D-T-bg.jpg) repeat-y;background-size:contain}
 @media (max-width:1024px){.fa-envelope,.fa-facebook-f,.icon-item{height:44px}
 .icon-item{width:44px;margin:0}
 .icon-item a{font-size:20px}

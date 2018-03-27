@@ -12,18 +12,18 @@ body {
 
 
 .header {
-    background: url(/img/D-start-bg.svg) no-repeat;
+    background: url(../../img/D-start-bg.svg) no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 100%;
     @media (max-width: 768px) {
         .header {
-            background: url(/img/T-start-bg.svg);
+            background: url(../../img/T-start-bg.svg);
         }
     }
     @media (max-width:668px) {
         .header {
-            background: url(/img/M-start-bg.svg);
+            background: url(../../img/M-start-bg.svg);
         }
     }
 }
@@ -41,7 +41,7 @@ body {
     width: 130px;
     height: 104px;
     animation: myfirst 2s infinite;
-    background: url(/img/D-T-M-start-alice.svg) no-repeat;
+    background: url(../../img/D-T-M-start-alice.svg) no-repeat;
     @keyframes myfirst {
         0% {
             transform: translate(0px, 0px);
