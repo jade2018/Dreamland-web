@@ -5,11 +5,9 @@
 @import"_backtop.scss";
 body {
     font-family: 'Noto Serif Georgian', 'serif';
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     background-color: $block;
 }
-
-
 
 .header {
     background: url(../../img/D-start-bg.svg) no-repeat;
@@ -18,12 +16,12 @@ body {
     max-width: 100%;
     @media (max-width: 768px) {
         .header {
-            background: url(../../img/T-start-bg.svg);
+            background: url(../../img/T-start-bg.jpg;)
         }
     }
     @media (max-width:668px) {
         .header {
-            background: url(../../img/M-start-bg.svg);
+            background: url(../../img/M-start-bg.jpg;)
         }
     }
 }
@@ -68,13 +66,8 @@ body {
     }
 }
 
-
 @media (max-width:768px) {
     .start-btn {
         display: none;
     }
 }
-
-
-
-

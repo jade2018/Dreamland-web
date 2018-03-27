@@ -60,6 +60,11 @@
     text-decoration: none;
 }
 
+@media (max-width:668px){
+    .footertext-style{
+        font-size: 12px;
+    }
+}
 .icon {
     width: 100%;
 }

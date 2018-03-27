@@ -31,7 +31,7 @@
 @media (max-width:668px){.menu{margin-bottom:50px}
 .menu li{margin:80px auto 0}
 .menu li a{font-size:18px}
-.showmenu{display:block;margin:27px 41px 0 0}
+.showmenu{display:block;margin:27px 25px 0 0}
 .menu-show .menu{top:0;bottom:0;overflow:scroll;height:100%;padding-bottom:30px}
 }
 .footer{background-color:#353535}
@@ -43,14 +43,15 @@
 .text-border:after{right:43%}
 @media (max-width:1024px){.text-border:after,.text-border:before{display:none}
 }
-@media (max-width:668px){.text-border:after,.text-border:before{display:none}
-}
 .block a,.footertext-style a,.icon a{color:#fff;text-decoration:none}
+@media (max-width:668px){.text-border:after,.text-border:before{display:none}
+.footertext-style{font-size:12px}
+}
 .icon{width:100%}
 .icon-item{display:inline-block;width:30px;height:30px;border-radius:99em;border:1px solid #fff;-webkit-transition:.9s;-o-transition:.9s;transition:.9s;margin:10px 0 0 5px}
 .icon-item:hover{border:1px solid #BAA973}
 .backtop{position:fixed;bottom:0;right:0}
-body{font-family:'Noto Serif Georgian',serif;letter-spacing:2px;background:url(../../img/D-T-bg.jpg) repeat-y;background-size:contain}
+body{font-family:'Noto Serif Georgian',serif;letter-spacing:1.5px;background:url(../../img/D-T-bg.jpg) repeat-y;background-size:contain}
 @media (max-width:1024px){.fa-envelope,.fa-facebook-f,.icon-item{height:44px}
 .icon-item{width:44px;margin:0}
 .icon-item a{font-size:20px}
@@ -69,5 +70,5 @@ body{background-image:none;background-color:#000}
 .text-wrap-even{width:55%;padding-right:50px}
 @media (max-width:768px){.text-wrap-base,.text-wrap-even{width:100%;height:auto;padding:20px}
 }
-.news-content{font-size:14px;line-height:2.5;color:#BAA973;text-align:justify}
+.news-content{font-size:14px;line-height:2;color:#BAA973;text-align:justify}
 .blockquote-footer{display:inline}

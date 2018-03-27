@@ -5,13 +5,13 @@
 @import"_backtop.scss";
 @mixin text-decoration {
     font-size: 14px;
-    line-height: 2.5;
+    line-height: 2;
     color: $darkgoldenrod;
 }
 
 body {
     font-family: 'Noto Serif Georgian', 'serif';
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     background-color: $block;
     background: url(../../img/D-T-bg.jpg) repeat-y;
     background-size: contain;
