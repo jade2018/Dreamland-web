@@ -55,12 +55,7 @@
 }
 .backtop{position:fixed;bottom:0;right:0}
 body{font-family:'Noto Serif Georgian',serif;letter-spacing:1.5px;background-color:#000}
-.header{background:url(../../img/D-start-bg.svg) center no-repeat;background-size:cover;max-width:100%}
-@media (max-width:768px){.header .header{background:url(../../img/T-start-bg.jpg;)}
-.mark{margin-top:-20px}
-}
-@media (max-width:668px){.header .header{background:url(../../img/M-start-bg.jpg;)}
-}
+.header{background:url(../../img/D-start-bg.jpg) center no-repeat;background-size:cover;max-width:100%}
 .header-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100vh}
 .mark{margin-bottom:200px;width:130px;height:104px;-webkit-animation:myfirst 2s infinite;animation:myfirst 2s infinite;background:url(../../img/D-T-M-start-alice.svg) no-repeat}
 @-webkit-keyframes myfirst{0%,100%{-webkit-transform:translate(0,0);transform:translate(0,0)}
@@ -69,7 +64,8 @@ body{font-family:'Noto Serif Georgian',serif;letter-spacing:1.5px;background-col
 @keyframes myfirst{0%,100%{-webkit-transform:translate(0,0);transform:translate(0,0)}
 50%{-webkit-transform:translate(0,-10px);transform:translate(0,-10px)}
 }
-@media (max-width:668px){.mark{width:100px;margin-top:60px}
+@media (max-width:768px){.mark{margin-top:-20px}
+.start-btn{display:none}
 }
-@media (max-width:768px){.start-btn{display:none}
+@media (max-width:668px){.mark{width:100px;margin-top:60px}
 }

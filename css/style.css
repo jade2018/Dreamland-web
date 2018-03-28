@@ -213,16 +213,10 @@ body {
   background-color: #000; }
 
 .header {
-  background: url(../../img/D-start-bg.svg) no-repeat;
+  background: url(../../img/D-start-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 100%; }
-  @media (max-width: 768px) {
-    .header .header {
-      background: url(../../img/T-start-bg.jpg); } }
-  @media (max-width: 668px) {
-    .header .header {
-      background: url(../../img/M-start-bg.jpg); } }
 
 .header-wrap {
   display: -webkit-box;
