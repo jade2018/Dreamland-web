@@ -234,6 +234,10 @@ body {
           align-items: center;
   height: 100vh; }
 
+@media (max-width: 668px) {
+  .header-wrap {
+    height: 668px; } }
+
 .mark {
   margin-bottom: 200px;
   width: 130px;
@@ -272,9 +276,5 @@ body {
   .mark {
     width: 100px;
     margin-top: 60px; } }
-
-@media (max-width: 768px) {
-  .start-btn {
-    display: none; } }
 
 /*# sourceMappingURL=debug/style.css.map */
