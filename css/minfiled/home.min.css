@@ -8,6 +8,7 @@
 @font-face{font-family:'Noto Serif Georgian';font-style:normal;font-weight:700;src:url(//fonts.gstatic.com/ea/notoserifgeorgian/v3/NotoSerifGeorgian-Bold.eot);src:url(//fonts.gstatic.com/ea/notoserifgeorgian/v3/NotoSerifGeorgian-Bold.eot?#iefix) format('embedded-opentype'),url(//fonts.gstatic.com/ea/notoserifgeorgian/v3/NotoSerifGeorgian-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notoserifgeorgian/v3/NotoSerifGeorgian-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notoserifgeorgian/v3/NotoSerifGeorgian-Bold.ttf) format('truetype')}
 .nav{max-width:100vw;height:200px;background:#000}
 @media (max-width:768px){.nav{height:150px}
+.menu .nav-a{display:none}
 }
 .nav-wrap{width:100%}
 .logo a{display:block;width:185px;height:100px;text-indent:-999999px;background:url(../../img/D-logo.svg) no-repeat}
@@ -64,8 +65,7 @@ body{font-family:'Noto Serif Georgian',serif;letter-spacing:1.5px;background:url
 @media (max-width:1024px){body{background-color:#000;background-image:none}
 }
 .header{height:800px;background:url(../../img/D-home-image1.svg) center no-repeat fixed;background-size:cover;max-width:100%}
-@media (max-width:768px){.menu .nav-a{display:none}
-.header{height:370px;background:url(../../img/T-home-image1.svg) no-repeat;background-size:cover}
+@media (max-width:768px){.header{height:370px;background:url(../../img/T-home-image1.svg) no-repeat;background-size:cover}
 }
 @media (max-width:668px){.header{height:500px;background:url(../../img/M-home-image1.svg) no-repeat;background-size:cover}
 }
