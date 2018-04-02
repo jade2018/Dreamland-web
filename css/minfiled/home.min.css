@@ -128,6 +128,6 @@ form{width:40%;margin:auto 100px}
 .content{resize:none;height:421px;border-radius:5px;-webkit-box-shadow:5px 5px 5px #999 inset;box-shadow:5px 5px 5px #999 inset}
 .button{border:.5px solid #BAA973;border-radius:5px;-webkit-transition:.9s;-o-transition:.9s;transition:.9s}
 .button:hover{background:#fff}
-@media (max-width:668px){.title{font-size:1.25rem}
+@media (max-width:668px){.title{font-size:1.25rem;padding:5px}
 }
 .clearfix{clear:both}
