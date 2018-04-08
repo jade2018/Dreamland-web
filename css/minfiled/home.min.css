@@ -20,7 +20,7 @@
 @media (max-width:768px){.nav-border img{display:none}
 }
 .menu{width:100%}
-.menu li{display:inline-block;padding-left:20px;margin-top:20px}
+.menu li{display:inline-block;padding-left:35px;margin-top:20px}
 .menu a{display:block;text-decoration:none;transition:.9s;font-size:16px;color:#BAA973}
 .menu a:hover{color:#DDCA8C}
 .showmenu{display:none}
