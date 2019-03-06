@@ -49,7 +49,7 @@
 .footertext-style{font-size:12px}
 }
 .icon{width:100%}
-.icon-item{display:inline-block;width:30px;height:30px;border-radius:99em;border:1px solid #fff;-webkit-transition:.9s;-o-transition:.9s;transition:.9s;margin:10px 0 0 5px}
+.icon-item{display:inline-block;width:30px;height:30px;border-radius:99em;border:1px solid #fff;-webkit-transition:.9s;-o-transition:.9s;transition:.9s;margin:10px 5px}
 .icon-item:hover{border:1px solid #BAA973}
 .backtop{position:fixed;bottom:0;right:0}
 body{font-family:'Noto Serif Georgian',serif;letter-spacing:1.5px;background:url(../../img/D-T-bg.jpg) repeat-y;background-size:contain}
