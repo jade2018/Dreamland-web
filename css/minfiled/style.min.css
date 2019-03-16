@@ -36,7 +36,7 @@
 }
 .footer{background-color:#353535}
 .footer-wrap{text-align:center;padding:30px}
-.footertext-style{color:#fff;font-size:14px;margin:15px 0}
+.footertext-style{color:#fff;font-size:14px;margin:15px 0;font-weight:400}
 .text-border{display:block;position:relative}
 .text-border:after,.text-border:before{content:'';position:absolute;top:52%;background:#fff;width:2%;height:1px}
 .text-border:before{left:43%}
