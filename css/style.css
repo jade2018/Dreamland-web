@@ -132,7 +132,8 @@
 .footertext-style {
   color: #fff;
   font-size: 14px;
-  margin: 15px 0; }
+  margin: 15px 0;
+  font-weight: normal; }
 
 .text-border {
   display: block;
